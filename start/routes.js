@@ -22,6 +22,7 @@ Route.get('/', () => {
 
 Route.post('/register','AuthController.register')
 Route.post('/authenticate','AuthController.authenticate')
+Route.post('/login','AuthController.login')
 
 Route.group(() => {
 
