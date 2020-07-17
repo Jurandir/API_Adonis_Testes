@@ -7,6 +7,10 @@ class Banco extends Model {
     static get primaryKey () {
         return 'id_bancos'
     }
+    
+    static get incrementing () {
+        return false
+    }
 }
 
 module.exports = Banco

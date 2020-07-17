@@ -44,13 +44,11 @@ class BancoController {
       )
     );
 
-
-    const count = Object.keys(bancos).length;
-    console.log( count );
-  
+    //const count = Object.keys(bancos).length;
+    //console.log( count );
     //console.log( qs, co_banco, no_bancos );
     
-    return (bancos,{count});
+    return bancos;
 
   }
 
